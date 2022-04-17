@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/SfPcxfB/pic-1.jpg",
+        "place": "shundarban"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/72S8ffm/pic-2.jpg",
+        "place": "Rangamati"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/2ZhDBQw/pic-3.jpg",
+        "place": "bihar"
+    }
+]
