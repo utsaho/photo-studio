@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/NtZcVHR/1-min.jpg",
+        "name": "MEDITERRANEAN PLANET",
+        "price": 18,
+        "story": "Do you want to discover the magical world of the seabed? To know amazing species of fish? To dream of becoming an explorer? Don't hesitate for a second and dive into the life of this modern adventurer: Laurent Ballesta“He was around your age when he took his first dive and since then he has never stopped going deeper and further, in the heart of all the seas and oceans of the globe."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/tM3NT7Y/2-min.jpg",
+        "name": "DISCOVER THE SEA WITH LAURENT BALLESTA",
+        "price": 69,
+        "story": "On any trip, his vehicle. Towards the stars, a spaceship, towards the abyss, a bathyal vessel. The great depths are the distant planets of a nearby galaxy. 100 m, 120 m, 140 m, these distances are derisory and impassable at the same time. This universe is neither close nor distant, it is elsewhere. So to reach it is to join a par"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/g65wckz/3-min.jpg",
+        "name": "700 SHARKS IN THE NIGHT",
+        "price": 75,
+        "story": "They are 700 say the scientists… but for Laurent Ballesta they are everywhere. The sharks block the narrow horizon with the beam of his lamps, stumble against his cameras, force their way through his flippers. In this horde where everyone strives to survive reigns the energy of the hungry. When a prey is flushed out, a pack forms and chaos takes on meaning. Crazy choreographies are organized and end in a shower of scales. "
+    }
+]

@@ -13,7 +13,7 @@ const Footer = () => {
 
     return (
         <div className='d-flex flex-column justify-content-center align-items-center     text-center mt-5 bg-dark text-light' style={{ height: '100px' }}>
-            <div>
+            <div className='mb-1'>
                 <small style={{ fontFamily: 'monospace' }}>
                     &copy; {date.getFullYear()} utshao utsho
                 </small>
