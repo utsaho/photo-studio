@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <div>
             <CarouSel></CarouSel>
-            {/* <Gallery nOf={6}></Gallery> */}
+            <Gallery nOf={6}></Gallery>
             <Services></Services>
-            {/* <ExploreWild></ExploreWild> */}
+            <ExploreWild></ExploreWild>
 
         </div>
     );
