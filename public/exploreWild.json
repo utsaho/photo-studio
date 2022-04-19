@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/stills5.png",
+        "search": "stills"
+    },
+    {
+        "id": 2,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/f_art3.png",
+        "search": "fine art"
+    },
+    {
+        "id": 3,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/voice2.png",
+        "search": "voice"
+    },
+    {
+        "id": 4,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/amaze3.png",
+        "search": "amaze"
+    },
+    {
+        "id": 5,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/sealegacy.png",
+        "search": "sealegacy"
+    },
+    {
+        "id": 6,
+        "img": "https://cristinamittermeier.com/wp-content/uploads/2019/02/faq5.png",
+        "search": "faq"
+    }
+]

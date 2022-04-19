@@ -5,7 +5,7 @@ const CarouSelItem = ({ item }) => {
     return (
         <div>
             <img src={img} alt='' />
-            <h1 className="legend">{place}2</h1>
+            <h1 className="legend">{place}</h1>
         </div>
     );
 };
