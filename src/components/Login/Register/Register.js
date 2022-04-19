@@ -16,6 +16,7 @@ const Register = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const nameRef = useRef('');
+    const ConfirmPasswordRef = useRef('');
     const navigateLogin = () => {
         navigate('/login');
     }
@@ -26,10 +27,17 @@ const Register = () => {
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        await createUserWithEmailAndPassword(email, password);
-        await updateProfile({ displayName: name });
-        toast('Profile creaded');
-        navigate('/home');
+        const confirmPassword = ConfirmPasswordRef.current.value;
+        if (password === confirmPassword) {
+
+            await createUserWithEmailAndPassword(email, password);
+            await updateProfile({ displayName: name });
+            toast('Profile creaded');
+            navigate('/home');
+        }
+        else {
+            toast('password doesn\'t match!');
+        }
     }
 
     return (
@@ -47,6 +55,9 @@ const Register = () => {
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicConfirmPassword">
+                        <Form.Control ref={ConfirmPasswordRef} type="password" placeholder="Confirm Password" required />
                     </Form.Group>
                     <Form.Group className={`mb-3 text-start ${agree ? 'text-success' : 'text-danger'}`} controlId="formBasicCheckbox">
                         <Form.Check onClick={() => setAgree(!agree)} type="checkbox" label="Please Accept term and conditions of 'Photo Studio'" />

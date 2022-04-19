@@ -10,6 +10,7 @@ import FullGallery from './components/Shared/FullGallery/FullGallery';
 import RequireAuth from './components/Login/RequireAuth/RequireAuth';
 import Checkout from './components/Checkout/Checkout';
 import Blogs from './components/Services/Blogs/Blogs';
+import About from './components/About/About';
 function App() {
     return (
         <div>
@@ -23,6 +24,7 @@ function App() {
                 </RequireAuth>} />
                 <Route path='/blogs' element={<Blogs></Blogs>} />
                 <Route path='/register' element={<Register></Register>} />/
+                <Route path='/about' element={<About></About>} />/
                 <Route path='/checkout' element={<RequireAuth>
                     <Checkout></Checkout>
                 </RequireAuth>} />
