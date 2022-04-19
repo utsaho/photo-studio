@@ -27,7 +27,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
                             {
                                 user?.uid ?
-                                    <button onClick={handleSignOut} className='btn btn-danger'>Singout</button> :
+                                    <button onClick={handleSignOut} className='btn btn-dark'>Logout</button> :
                                     <Nav.Link eventKey={2} as={Link} to="/login"> Login </Nav.Link>
                             }
                         </Nav>
