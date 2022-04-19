@@ -13,6 +13,7 @@ const Services = () => {
     return (
         <div className='container'>
             <h2 className='text-center mt-5 mb-5 display-3' style={{ fontFamily: 'monospace' }} >My <span className='text-danger'>Services</span></h2>
+            <div style={{ margin: '0 auto' }} className='w-50'> <hr /></div>
             <div className='row'>
 
                 {

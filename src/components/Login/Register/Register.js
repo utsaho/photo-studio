@@ -5,6 +5,8 @@ import './Register.css';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
     const [createUserWithEmailAndPassword, user, loading, error,] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
@@ -26,7 +28,7 @@ const Register = () => {
         const password = passwordRef.current.value;
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
-        alert('Profile creaded');
+        toast('Profile creaded');
         navigate('/home');
     }
 
@@ -56,6 +58,7 @@ const Register = () => {
                 <p>Already user? <Link to='/login' className='text-primary text-decoration-none'>Please Login</Link></p>
             </div>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
     );
 };
